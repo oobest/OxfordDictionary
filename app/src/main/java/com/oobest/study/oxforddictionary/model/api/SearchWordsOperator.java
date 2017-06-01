@@ -46,7 +46,7 @@ public final class SearchWordsOperator {
         if (entryContent != null) {
             result = new DictionaryResult();
             result.word = entryContent.select("h2.h").text();
-            result.partOfSpeech = entryContent.select("div.webtop-g").select("span.pos").text();
+            result.partOfSpeech = entryContent.select("span.pos-g").text();
             result.pronunciation = parsePronunciation(entryContent);
             result.semantics = parseSemantics(entryContent);
         }

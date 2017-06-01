@@ -9,6 +9,7 @@ public final class EntityUtils {
 
     public static final Gson gson = new GsonBuilder()
           //  .registerTypeAdapter(DateTime.class, new DateTimeTypeAdapter())
+            .disableHtmlEscaping()
             .create();
 
 //    private static class DateTimeTypeAdapter implements JsonSerializer<DateTime>, JsonDeserializer<DateTime> {
