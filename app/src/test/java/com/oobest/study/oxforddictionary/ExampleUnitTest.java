@@ -1,4 +1,4 @@
-package study.oobest.com.oxforddictionary;
+package com.oobest.study.oxforddictionary;
 
 import org.junit.Test;
 

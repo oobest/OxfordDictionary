@@ -1,4 +1,4 @@
-package study.oobest.com.oxforddictionary;
+package com.oobest.study.oxforddictionary;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
-import study.oobest.com.oxforddictionary.model.api.ApiService;
-import study.oobest.com.oxforddictionary.model.entity.DictionaryResult;
-import study.oobest.com.oxforddictionary.model.util.EntityUtils;
+import com.oobest.study.oxforddictionary.model.api.ApiService;
+import com.oobest.study.oxforddictionary.model.entity.DictionaryResult;
+import com.oobest.study.oxforddictionary.model.util.EntityUtils;
 
 public class MainActivity extends AppCompatActivity {
 

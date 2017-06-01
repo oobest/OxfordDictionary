@@ -1,4 +1,4 @@
-package study.oobest.com.oxforddictionary.model.util;
+package com.oobest.study.oxforddictionary.model.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

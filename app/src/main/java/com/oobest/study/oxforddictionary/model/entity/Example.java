@@ -1,4 +1,4 @@
-package study.oobest.com.oxforddictionary.model.entity;
+package com.oobest.study.oxforddictionary.model.entity;
 
 /**
  * Created by Albert.Ou on 2017/5/5.

@@ -1,4 +1,4 @@
-package study.oobest.com.oxforddictionary.model.entity;
+package com.oobest.study.oxforddictionary.model.entity;
 
 /**
  * 发音

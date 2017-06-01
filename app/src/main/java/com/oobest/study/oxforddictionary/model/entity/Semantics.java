@@ -1,4 +1,4 @@
-package study.oobest.com.oxforddictionary.model.entity;
+package com.oobest.study.oxforddictionary.model.entity;
 
 import java.util.List;
 

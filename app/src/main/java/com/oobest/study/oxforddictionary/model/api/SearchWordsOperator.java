@@ -1,4 +1,4 @@
-package study.oobest.com.oxforddictionary.model.api;
+package com.oobest.study.oxforddictionary.model.api;
 
 import android.util.Log;
 
@@ -11,10 +11,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import study.oobest.com.oxforddictionary.model.entity.DictionaryResult;
-import study.oobest.com.oxforddictionary.model.entity.Example;
-import study.oobest.com.oxforddictionary.model.entity.Pronunciation;
-import study.oobest.com.oxforddictionary.model.entity.Semantics;
+import com.oobest.study.oxforddictionary.model.entity.DictionaryResult;
+import com.oobest.study.oxforddictionary.model.entity.Example;
+import com.oobest.study.oxforddictionary.model.entity.Pronunciation;
+import com.oobest.study.oxforddictionary.model.entity.Semantics;
 
 /**
  * Created by Albert.Ou on 2017/5/5.

@@ -1,10 +1,10 @@
-package study.oobest.com.oxforddictionary.model.api;
+package com.oobest.study.oxforddictionary.model.api;
 
 import android.support.annotation.NonNull;
 
 import io.reactivex.Observable;
 import io.reactivex.functions.Function;
-import study.oobest.com.oxforddictionary.model.entity.DictionaryResult;
+import com.oobest.study.oxforddictionary.model.entity.DictionaryResult;
 
 /**
  * Created by Albert.Ou on 2017/5/5.
