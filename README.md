@@ -7,8 +7,9 @@
 Model:app完成了单词的英译查找功能，缺点是如果牛津字典的网页格式发生变化，将会解析失败
 
 于是设计了一个动态更新的方式：
+
 ###见Model：dictkit,和Model：endict；
-（没有完成功能包括：dex文件加密，朗文英语翻译的Dex;中文翻译的Dex;DexClassLoader根据用户不同翻译，加载不同的Dex）
+（没有完成功能包括：1、dex文件加密解密，2、朗文英语翻译的Dex;3、中文翻译的Dex;4、DexClassLoader根据用户不同翻译，加载不同的Dex）
 其中dictkit是字典书籍提供者（这里主要是解析牛津网页，如果想使用其他地方的数据，直接实现DictCallback.java和DictImpl接口即可）
 Endict是展示层，用户安装后，不能动态更新。
 
