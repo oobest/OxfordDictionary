@@ -15,7 +15,7 @@ Endict是展示层，用户安装后，不能动态更新。
 主要的知识点是DexClassLoader的动态加载。
 
 将dictkit打包后使用dex2jar工具，去掉资源文件，资源id文件，MainActivity,DictImpl,DictCallback文件后生成dictkit-release-dex2jar-jar2dex.dex
-<img src="https://github.com/oobest/OxfordDictionary/blob/master/pic/pic.png" width="540" height="960" alt="截图"/>
+<img src="https://github.com/oobest/OxfordDictionary/blob/master/pic/pic.png"/>
 
 将dictkit-release-dex2jar-jar2dex.dex放入Model:endict
 <img src="https://github.com/oobest/OxfordDictionary/blob/master/pic/device-2018-03-03-143058.png" width="540" height="960" alt="截图"/>
