@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">"EnDict"</string>
+    <string name="search_hint">Enter a word</string>
+</resources>

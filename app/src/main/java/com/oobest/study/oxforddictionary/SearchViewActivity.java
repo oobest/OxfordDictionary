@@ -15,7 +15,9 @@ import android.widget.TextView;
 
 import com.oobest.study.oxforddictionary.model.api.ApiService;
 import com.oobest.study.oxforddictionary.model.entity.DictionaryResult;
+import com.oobest.study.oxforddictionary.model.entity.Example;
 import com.oobest.study.oxforddictionary.model.entity.Pronunciation;
+import com.oobest.study.oxforddictionary.model.entity.Semantics;
 import com.oobest.study.oxforddictionary.model.util.EntityUtils;
 
 import java.io.UnsupportedEncodingException;
@@ -120,6 +122,7 @@ public class SearchViewActivity extends AppCompatActivity {
 
     private void setContent(DictionaryResult dictionaryResult) {
         StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("<!DOCTYPE HTML><html><body>");
         stringBuilder.append("<div>").append("<h2>").append(dictionaryResult.word).append("</h2>")
                 .append("<i>").append(dictionaryResult.partOfSpeech).append("</i>").append("</div>");
 
@@ -131,13 +134,27 @@ public class SearchViewActivity extends AppCompatActivity {
                         .append("<span>[<font face=\"Lucida Sans Unicode\">")
                         .append(pronunciation.phonics)
                         .append("</font>]</span>")
-                        .append("<audio src=" + pronunciation.audio + ">").append("</audio>")
-                        .append("</span>");
+                        .append("<audio controls='controls'><source src='" + pronunciation.audio + "' type='audio/mpeg'>").append("</audio>")
+                        .append("</span>").append("</br>");
                 Log.d(TAG, "setContent: pronunciation.phonics=" + pronunciation.phonics);
+            }
+            stringBuilder.append("</div>");
+
+            stringBuilder.append("<div>");
+            for(Semantics semantics: dictionaryResult.semantics){
+                stringBuilder.append("<h4>").append(semantics.gram).append("</br>").append(semantics.def).append("</h4>");
+                if(semantics.exp!=null) {
+                    stringBuilder.append("<ul>");
+                    for (Example example : semantics.exp) {
+                        stringBuilder.append("<li><strong>").append(example.cf).append("</strong>&nbsp;").append(example.x).append("</li>");
+                    }
+                    stringBuilder.append("</ul>");
+                }
             }
             stringBuilder.append("</div>");
         }
 
+        stringBuilder.append("</body></html>");
         webView.loadData(stringBuilder.toString(), "text/html", "UTF-8");
     }
 
