@@ -21,5 +21,6 @@
 <img src="https://github.com/oobest/OxfordDictionary/blob/master/pic/pic.png"/>
 
 将dictkit-release-dex2jar-jar2dex.dex放入Model:endict 打包生成的APK运行情况如下
-<img src="https://github.com/oobest/OxfordDictionary/blob/master/pic/device-2018-03-03-143058.png" width="540" height="960" alt="截图"/>
+<img src="https://github.com/oobest/OxfordDictionary/blob/master/pic/device-2018-03-03-154526.png" width="540" height="960" alt="应用打开界面"/>
+<img src="https://github.com/oobest/OxfordDictionary/blob/master/pic/device-2018-03-03-143058.png" width="540" height="960" alt="翻译结果界面"/>
 
