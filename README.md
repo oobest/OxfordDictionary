@@ -17,7 +17,7 @@
 
 
 ### dictkit和endict功能合并操作提示
-将dictkit打包后使用dex2jar工具，去掉资源文件，资源id文件，MainActivity,DictImpl,DictCallback文件后生成dictkit-release-dex2jar-jar2dex.dex
+将dictkit打包后使用dex2jar工具，去掉资源文件\资源id文件\MainActivity\DictImpl\DictCallback文件后,生成dictkit-release-dex2jar-jar2dex.dex
 <img src="https://github.com/oobest/OxfordDictionary/blob/master/pic/pic.png"/>
 
 将dictkit-release-dex2jar-jar2dex.dex放入Model:endict 打包生成的APK运行情况如下
