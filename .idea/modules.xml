@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OxfordDictionary.iml" filepath="$PROJECT_DIR$/OxfordDictionary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OxfordDictionary.iml" filepath="$PROJECT_DIR$/OxfordDictionary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dictkit/dictkit.iml" filepath="$PROJECT_DIR$/dictkit/dictkit.iml" />
       <module fileurl="file://$PROJECT_DIR$/endict/endict.iml" filepath="$PROJECT_DIR$/endict/endict.iml" />
